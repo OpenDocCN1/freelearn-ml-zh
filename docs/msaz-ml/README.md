@@ -1,6 +1,6 @@
 # 微软 Azure 机器学习
 
-> 原文：[`annas-archive.org/md5/a97d8454fc892c5e06976d6083fbe5df`](https://annas-archive.org/md5/a97d8454fc892c5e06976d6083fbe5df)
+> 原文：[Microsoft Azure Machine Learning : explore predictive analytics using step-by-step tutorials and build models to make predictions in a jiffy with a few mouse clicks](https://annas-archive.gl/md5/a97d8454fc892c5e06976d6083fbe5df)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

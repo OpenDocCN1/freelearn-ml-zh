@@ -1,6 +1,6 @@
 # Scala 机器学习快速启动指南
 
-> 原文：[`annas-archive.org/md5/7cee668dc80e7e6b8a656779b72e2561`](https://annas-archive.org/md5/7cee668dc80e7e6b8a656779b72e2561)
+> 原文：[Machine Learning with Scala Quick Start Guide : Leverage Popular Machine Learning Algorithms and Techniques and Implement Them in Scala](https://annas-archive.gl/md5/7cee668dc80e7e6b8a656779b72e2561)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

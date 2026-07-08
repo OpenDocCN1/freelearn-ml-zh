@@ -1,6 +1,6 @@
 # 精通 Sklearn 机器学习
 
-> 原文：[`annas-archive.org/md5/134cf6a20c6d15c910e0f04905bbd7ae`](https://annas-archive.org/md5/134cf6a20c6d15c910e0f04905bbd7ae)
+> 原文：[Mastering machine learning with scikit-learn : apply effective learning algorithms to real-world problems using scikit-learn](https://annas-archive.gl/md5/134cf6a20c6d15c910e0f04905bbd7ae)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

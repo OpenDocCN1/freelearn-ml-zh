@@ -1,6 +1,6 @@
 # 计算机视觉实践指南
 
-> 原文：[`annas-archive.org/md5/ffa86d5c3023d327fe8d8e153be0e2ec`](https://annas-archive.org/md5/ffa86d5c3023d327fe8d8e153be0e2ec)
+> 原文：[Practical Computer Vision](https://annas-archive.gl/md5/ffa86d5c3023d327fe8d8e153be0e2ec)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

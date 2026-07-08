@@ -1,6 +1,6 @@
 # 机器学习的特征存储
 
-> 原文：[`annas-archive.org/md5/b415bac641e475b2a74b5ca99453c99f`](https://annas-archive.org/md5/b415bac641e475b2a74b5ca99453c99f)
+> 原文：[Feature Store for Machine Learning : Curate, Discover, Share and Serve ML Features at Scale](https://annas-archive.gl/md5/b415bac641e475b2a74b5ca99453c99f)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

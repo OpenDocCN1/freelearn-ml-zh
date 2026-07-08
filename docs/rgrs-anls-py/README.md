@@ -1,6 +1,6 @@
 # Python 回归分析
 
-> 原文：[`annas-archive.org/md5/7493aa2d1357131907468d86f8aaf57d`](https://annas-archive.org/md5/7493aa2d1357131907468d86f8aaf57d)
+> 原文：[Regression Analysis with Python : Discover Everything You Need to Know About the Art of Regression Analysis with Python, and Change How You View Data](https://annas-archive.gl/md5/7493aa2d1357131907468d86f8aaf57d)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

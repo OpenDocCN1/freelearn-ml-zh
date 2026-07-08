@@ -1,6 +1,6 @@
 # 亚马逊 Redshift 无服务器机器学习
 
-> 原文：[`annas-archive.org/md5/0510bb54fffc069069112c3c7905bce9`](https://annas-archive.org/md5/0510bb54fffc069069112c3c7905bce9)
+> 原文：[Serverless Machine Learning with Amazon Redshift ML : Create, Train, and Deploy Machine Learning Models Using Familiar SQL Commands](https://annas-archive.gl/md5/0510bb54fffc069069112c3c7905bce9)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

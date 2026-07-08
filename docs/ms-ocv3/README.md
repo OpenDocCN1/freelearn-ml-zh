@@ -1,6 +1,6 @@
 # 精通 OpenCV3
 
-> 原文：[`annas-archive.org/md5/686c097be00b01bb7bed0612adb11c34`](https://annas-archive.org/md5/686c097be00b01bb7bed0612adb11c34)
+> 原文：[Mastering OpenCV 3 - Second Edition](https://annas-archive.gl/md5/686c097be00b01bb7bed0612adb11c34)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

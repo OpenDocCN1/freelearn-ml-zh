@@ -1,6 +1,6 @@
 # Julia 设计模式与最佳实践实用指南
 
-> 原文：[`annas-archive.org/md5/cf7c7ac4f7ce92066baf2d230554da6f`](https://annas-archive.org/md5/cf7c7ac4f7ce92066baf2d230554da6f)
+> 原文：[Hands-on : design patterns and best practices with Julia : proven solutions to common problems in software design for Julia 1.x](https://annas-archive.gl/md5/cf7c7ac4f7ce92066baf2d230554da6f)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

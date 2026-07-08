@@ -1,6 +1,6 @@
 # 机器学习实践指南
 
-> 原文：[`annas-archive.org/md5/0c5a0ebc55e1e877629334a7531d9961`](https://annas-archive.org/md5/0c5a0ebc55e1e877629334a7531d9961)
+> 原文：[Practical machine learning : tackle the real-world complexities of modern machine learning with innovative and cutting-edge techniques](https://annas-archive.gl/md5/0c5a0ebc55e1e877629334a7531d9961)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

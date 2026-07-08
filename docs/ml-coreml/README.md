@@ -1,6 +1,6 @@
 # CoreML 机器学习
 
-> 原文：[`annas-archive.org/md5/81fb483ff59bf077682b56a26add29aa`](https://annas-archive.org/md5/81fb483ff59bf077682b56a26add29aa)
+> 原文：[MACHINE LEARNING WITH CORE ML : an ios developer's guide to implementing machine learning in ... mobile apps](https://annas-archive.gl/md5/81fb483ff59bf077682b56a26add29aa)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

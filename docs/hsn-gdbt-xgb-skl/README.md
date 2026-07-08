@@ -1,6 +1,6 @@
 # XGBoost 和 Sklearn 梯度提升实用指南
 
-> 原文：[`annas-archive.org/md5/8042b1d609c03cc86db1c68794ab294c`](https://annas-archive.org/md5/8042b1d609c03cc86db1c68794ab294c)
+> 原文：[Hands-On Gradient Boosting with XGBoost and scikit-learn: Perform accessible Python machine learning and extreme gradient boosting with Python](https://annas-archive.gl/md5/8042b1d609c03cc86db1c68794ab294c)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

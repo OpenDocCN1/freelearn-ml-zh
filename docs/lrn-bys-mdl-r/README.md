@@ -1,6 +1,6 @@
 # R 贝叶斯模型学习指南
 
-> 原文：[`annas-archive.org/md5/2c729bafbaf8d63831aa1a39dabebfc5`](https://annas-archive.org/md5/2c729bafbaf8d63831aa1a39dabebfc5)
+> 原文：[Learning Bayesian Models with R : Become an Expert in Bayesian Machine Learning Methods Using R and Apply Them to Solve Real-world Big Data Problems](https://annas-archive.gl/md5/2c729bafbaf8d63831aa1a39dabebfc5)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

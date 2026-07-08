@@ -1,6 +1,6 @@
 # AWS 应用机器学习与高性能计算
 
-> 原文：[`annas-archive.org/md5/f0e3669000f461b1b15efc00e448b120`](https://annas-archive.org/md5/f0e3669000f461b1b15efc00e448b120)
+> 原文：[Applied Machine Learning and High-Performance Computing on AWS : Accelerate the Development of Machine Learning Applications Following Architectural Best Practices](https://annas-archive.gl/md5/f0e3669000f461b1b15efc00e448b120)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

@@ -1,6 +1,6 @@
 # Azure 机器学习工程
 
-> 原文：[`annas-archive.org/md5/d452521c2b33ae9ef09fcca122573224`](https://annas-archive.org/md5/d452521c2b33ae9ef09fcca122573224)
+> 原文：[Azure Machine Learning Engineering : Deploy, Fine-tune, and Optimize ML Models Using Microsoft Azure](https://annas-archive.gl/md5/d452521c2b33ae9ef09fcca122573224)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

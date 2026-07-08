@@ -1,6 +1,6 @@
 # 隐私保护的机器学习
 
-> 原文：[`annas-archive.org/md5/66e779fb01ae94762b26e79699043d34`](https://annas-archive.org/md5/66e779fb01ae94762b26e79699043d34)
+> 原文：[Privacy-Preserving Machine Learning: Use cases driven approach to develop and protect machine learning pipelines from privacy and security threats](https://annas-archive.gl/md5/66e779fb01ae94762b26e79699043d34)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

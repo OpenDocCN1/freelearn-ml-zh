@@ -1,6 +1,6 @@
 # 计算机视觉算法实用指南
 
-> 原文：[`annas-archive.org/md5/96ae7a0eb0ade91db24b62767897b433`](https://annas-archive.org/md5/96ae7a0eb0ade91db24b62767897b433)
+> 原文：[Hands-On Algorithms for Computer Vision: Learn how to use the best and most practical computer vision algorithms using OpenCV](https://annas-archive.gl/md5/96ae7a0eb0ade91db24b62767897b433)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

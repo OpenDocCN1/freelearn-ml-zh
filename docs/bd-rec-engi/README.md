@@ -1,6 +1,6 @@
 # 推荐引擎构建指南
 
-> 原文：[`annas-archive.org/md5/0de504a8ea0346c6ac53b857fb263062`](https://annas-archive.org/md5/0de504a8ea0346c6ac53b857fb263062)
+> 原文：[Building recommendation engines understand your data and user preferences to make intelligent, accurate, and profitable decisions](https://annas-archive.gl/md5/0de504a8ea0346c6ac53b857fb263062)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

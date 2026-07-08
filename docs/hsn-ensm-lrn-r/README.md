@@ -1,6 +1,6 @@
 # R 集成学习实用指南
 
-> 原文：[`annas-archive.org/md5/80cdff39151999bd78d34d1c7cef3132`](https://annas-archive.org/md5/80cdff39151999bd78d34d1c7cef3132)
+> 原文：[Hands-On Ensemble Learning with R: A beginner's guide to combining the power of machine learning algorithms using ensemble techniques (English Edition)](https://annas-archive.gl/md5/80cdff39151999bd78d34d1c7cef3132)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

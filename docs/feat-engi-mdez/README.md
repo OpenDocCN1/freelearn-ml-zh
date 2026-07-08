@@ -1,6 +1,6 @@
 # 轻松学特征工程
 
-> 原文：[`annas-archive.org/md5/817912ba981171919811b1ecb5aec399`](https://annas-archive.org/md5/817912ba981171919811b1ecb5aec399)
+> 原文：[Feature engineering made easy: $b identify unique features from your dataset in order to build powerful machine learning systems](https://annas-archive.gl/md5/817912ba981171919811b1ecb5aec399)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

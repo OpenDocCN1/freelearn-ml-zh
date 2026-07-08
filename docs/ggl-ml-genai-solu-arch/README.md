@@ -1,6 +1,6 @@
 # 谷歌机器学习和生成式人工智能的解决方案架构
 
-> 原文：[`annas-archive.org/md5/90c02ac66d0c0f03912aac73223f0fbf`](https://annas-archive.org/md5/90c02ac66d0c0f03912aac73223f0fbf)
+> 原文：[Google Machine Learning and Generative AI for Solutions Architects](https://annas-archive.gl/md5/90c02ac66d0c0f03912aac73223f0fbf)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

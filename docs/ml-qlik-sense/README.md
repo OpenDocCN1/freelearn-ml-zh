@@ -1,6 +1,6 @@
 # QlikSense 机器学习
 
-> 原文：[`annas-archive.org/md5/8f7bc24194e22cd0590008aff877d041`](https://annas-archive.org/md5/8f7bc24194e22cd0590008aff877d041)
+> 原文：[Machine Learning with Qlik Sense : Utilize Different Machine Learning Models in Practical Use Cases by Leveraging Qlik Sense](https://annas-archive.gl/md5/8f7bc24194e22cd0590008aff877d041)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

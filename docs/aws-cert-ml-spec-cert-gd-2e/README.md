@@ -1,6 +1,6 @@
 # AWS 认证机器学习专项认证指南第二版
 
-> 原文：[`annas-archive.org/md5/a4f594b0ede74d7e70fdcbce5c192e37`](https://annas-archive.org/md5/a4f594b0ede74d7e70fdcbce5c192e37)
+> 原文：[AWS Certified Machine Learning - Specialty (MLS-C01) Certification Guide - 2nd Edition](https://annas-archive.gl/md5/a4f594b0ede74d7e70fdcbce5c192e37)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

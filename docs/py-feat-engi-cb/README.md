@@ -1,6 +1,6 @@
 # Python 特征工程秘籍
 
-> 原文：[`annas-archive.org/md5/3be0ee95713353c7de9e7e13bc64211b`](https://annas-archive.org/md5/3be0ee95713353c7de9e7e13bc64211b)
+> 原文：[Python Feature Engineering Cookbook : A Complete Guide to Crafting Powerful Features for Your Machine Learning Models](https://annas-archive.gl/md5/3be0ee95713353c7de9e7e13bc64211b)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

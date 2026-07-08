@@ -1,6 +1,6 @@
 # R 统计与机器学习研讨会
 
-> 原文：[`annas-archive.org/md5/e61f21209b8b5ad343780cefdc55a102`](https://annas-archive.org/md5/e61f21209b8b5ad343780cefdc55a102)
+> 原文：[The Statistics and Machine Learning with R Workshop : Unlock the Power of Efficient Data Science Modeling with This Hands-on Guide](https://annas-archive.gl/md5/e61f21209b8b5ad343780cefdc55a102)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

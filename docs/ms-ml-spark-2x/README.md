@@ -1,6 +1,6 @@
 # 精通 Spark 2.x 机器学习
 
-> 原文：[`zh.annas-archive.org/md5/3BA1121D202F8663BA917C3CD75B60BC`](https://zh.annas-archive.org/md5/3BA1121D202F8663BA917C3CD75B60BC)
+> 原文：[Mastering Machine Learning with Spark 2.x: Harness the potential of machine learning, through spark](https://zh.annas-archive.gl/md5/3BA1121D202F8663BA917C3CD75B60BC)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

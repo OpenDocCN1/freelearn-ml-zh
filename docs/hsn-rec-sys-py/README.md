@@ -1,6 +1,6 @@
 # Python 推荐系统实用指南
 
-> 原文：[`annas-archive.org/md5/8575b367f198fddfeb9dd19627d153b8`](https://annas-archive.org/md5/8575b367f198fddfeb9dd19627d153b8)
+> 原文：[Hands-On Recommendation Systems with Python : Start Building Powerful and Personalized, Recommendation Engines with Python](https://annas-archive.gl/md5/8575b367f198fddfeb9dd19627d153b8)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

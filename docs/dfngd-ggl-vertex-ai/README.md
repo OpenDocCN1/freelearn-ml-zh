@@ -1,6 +1,6 @@
 # Google Vertex AI 权威指南
 
-> 原文：[`annas-archive.org/md5/8868875aad4bcd1618fe77db5ab7a304`](https://annas-archive.org/md5/8868875aad4bcd1618fe77db5ab7a304)
+> 原文：[The Definitive Guide to Google Vertex AI: Implement Machine Learning pipelines with Google Cloud Vertex AI (for viis shkoder)](https://annas-archive.gl/md5/8868875aad4bcd1618fe77db5ab7a304)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 
