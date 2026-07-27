@@ -198,6 +198,7 @@
 +   [树莓派家庭机器人](docs/rbt-hm-raspi/README.md)
 +   [Python 回归分析](docs/rgrs-anls-py/README.md)
 +   [Scala 机器学习项目](docs/scala-ml-proj/README.md)
++   [scikit-learn 秘籍（第三版）：基于 scikit-learn 的 80 多个 Python 机器学习实战案例](docs/scikit-learn-cookbook-third-edition-over-80-recipes-for-mach/README.md)
 +   [Scala 应用机器学习](docs/scl-app-ml/README.md)
 +   [Sklearn 秘籍第二版](docs/skl-cb-2e/README.md)
 +   [Sklearn 秘籍](docs/sklearn-cookbook/README.md)
