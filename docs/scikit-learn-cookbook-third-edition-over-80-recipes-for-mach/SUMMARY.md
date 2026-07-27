@@ -1,0 +1,2 @@
++   [scikit-learn 秘籍（第三版）：基于 scikit-learn 的 80 多个 Python 机器学习实战案例](README.md)
++   [scikit-learn 秘籍（第三版）：基于 scikit-learn 的 80 多个 Python 机器学习实战案例](scikit-learn-cookbook-third-edition-over-80-recipes-for-mach.md)
