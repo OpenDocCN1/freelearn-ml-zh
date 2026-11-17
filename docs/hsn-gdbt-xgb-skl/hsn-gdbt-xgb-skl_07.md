@@ -602,7 +602,7 @@ AMS 的定义如下：
 √(2((s + b + b_reg)ln(1 + s / (b + b_reg)) - s))
 ```
 
-这里，`∑` 是真阳性率，![](img/Formula_05_063.png) 是假阳性率，而 `b_reg` 是一个常数正则化项，其值为 `10`。
+这里，`∑` 是真阳性率，`∫` 是假阳性率，而 `b_reg` 是一个常数正则化项，其值为 `10`。
 
 幸运的是，XGBoost 为比赛提供了一种 AMS 评分方法，因此不需要正式定义。高 AMS 的结果来自许多真阳性和很少的假阴性。关于为何选择 AMS 而不是其他评分方法的理由在技术文档中说明，地址为 [`higgsml.lal.in2p3.fr/documentation`](http://higgsml.lal.in2p3.fr/documentation)。
 
