@@ -238,21 +238,29 @@ F1 分数是不平衡数据情况下准确率指标的绝佳替代品。准确�
 
 这是准确率的公式：
 
-![公式图片](img/Formula_05_001.jpg)
+```
+Accuracy = # of correct predictions / # of total predictions
+```
 
 然而，F1 分数考虑了您模型的精确度和召回率。一个模型的精确度是指预测为正的样本中实际正确的百分比。您模型的召回率显示了您实际上能够检测到的正样本的百分比。
 
 这是精确率的公式：
 
-![公式图片](img/Formula_05_002.jpg)
+```
+Precision = # of True Positives / (# of True Positives + # of False Positives)
+```
 
 这是召回率的公式：
 
-![公式图片](img/Formula_05_003.jpg)
+```
+Recall = # of True Positives / (# of True Positives + # of False Negatives)
+```
 
 F1 分数将这两个指标结合成一个，使用以下公式：
 
-![公式图片](img/Formula_05_004.jpg)
+```
+F1 Score = 2 * Precision * Recall / (Precision + Recall)
+```
 
 使用这个指标进行评估，您将避免将非常糟糕的模型误认为是好的模型，尤其是在不平衡数据的情况下。
 

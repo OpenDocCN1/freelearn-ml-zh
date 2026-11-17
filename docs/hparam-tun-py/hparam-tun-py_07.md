@@ -210,9 +210,11 @@ SH 还有一个超参数，即最小早期停止率，`min_early_stopping`。这
 
 1.  使用以下公式计算最大迭代次数*n*iter：
 
-![公式](img/Formula_B18753_06_001.png)
+```
+n_iter = 1 + floor(log_factor(max_resources / min_resources))
+```
 
-1.  断言`n_candidates` ≥ ![公式](img/Formula_B18753_06_002.png)以确保在最后迭代中至少有一个候选者。
+1.  断言`n_candidates` ≥ `factor^(n_iter-min_earlystopping-1)`以确保在最后迭代中至少有一个候选者。
 
 1.  预热第一次迭代：
 
@@ -222,7 +224,9 @@ SH 还有一个超参数，即最小早期停止率，`min_early_stopping`。这
 
     1.  计算用于选择下一迭代顶级候选者的*topK*值：
 
-![公式](img/Formula_B18753_06_003.png)
+```
+top_K = floor(n_candidates · factor^-1)
+```
 
 1.  对于每个迭代*i*，从第二次迭代开始直到*n*iter 迭代，按以下步骤进行：
 
@@ -230,13 +234,17 @@ SH 还有一个超参数，即最小早期停止率，`min_early_stopping`。这
 
     1.  根据以下公式更新当前分配的资源*resourcesi*：
 
-![公式](img/Formula_B18753_06_004.png)
+```
+resources_i = min_resources · factor^(i+min_early_stopping-1)
+```
 
 1.  根据目标函数*f*，使用*resourcesi*评估所有*candidatesi*超参数集。
 
 1.  根据以下公式更新*topK*值：
 
-![公式](img/Formula_B18753_06_005.png)
+```
+top_K = floor(n_candidates · factor^-i)
+```
 
 1.  返回最佳超参数候选者：
 
@@ -302,19 +310,25 @@ HB 和 SH 之间的主要区别在于它们的超参数。HB 具有与 SH 相同
 
 1.  使用以下公式计算括号的数量，*nbrackets*：
 
-![](img/Formula_B18753_06_016.png)
+```
+n_brackets = 1 + floor(log_factor(max_resources/min_resources))
+```
 
 1.  对于每个括号-*j*，从`j=1`开始，直到`j=nbrackets`，执行以下操作：
 
-    1.  使用以下公式计算 SH 第一次迭代中用于括号-*j*的最小资源数量，![](img/Formula_B18753_06_017.png)：
+    1.  使用以下公式计算 SH 第一次迭代中用于括号-*j*的最小资源数量，`ṙ_j`：
 
-![](img/Formula_B18753_06_018.png)
+```
+r_j = max_resources · factor^-(n_brackets-j)
+```
 
-1.  使用以下公式计算 SH 第一次迭代中用于括号-*j*的初始超参数候选数量，![](img/Formula_B18753_06_019.png)：
+1.  使用以下公式计算 SH 第一次迭代中用于括号-*j*的初始超参数候选数量，`n_j`：
 
-![](img/Formula_B18753_06_020.png)
+```
+n_j = ceil(n_brackets / (n_brackets - j + 1) * factor^(n_brackets - j))
+```
 
-1.  根据*理解 SH*部分给出的 SH 过程，利用 ![](img/Formula_B18753_06_021.png) 作为当前 SH 运行的`min_resources`，![](img/Formula_B18753_06_022.png) 作为`n_candidates`执行*步骤 7 – 11*。
+1.  根据*理解 SH*部分给出的 SH 过程，利用 `r_j` 作为当前 SH 运行的`min_resources`，`n_j` 作为`n_candidates`执行*步骤 7 – 11*。
 
 1.  将当前 SH 运行输出的最佳超参数集以及目标函数分数存储在`top_candidates`字典中。
 
@@ -370,13 +384,17 @@ BOHB 的主要卖点是其能够实现强大的初始性能和最终性能。这
 
 1.  使用以下公式计算 SH 算法第一次迭代中用于 bracket-*j*的最低资源量！公式：
 
-![公式图](img/Formula_B18753_06_024.png)
+```
+r_j = max_resources · factor^-(n_brackets-j)
+```
 
 1.  使用以下公式计算 SH 算法第一次迭代中用于 bracket-j 的初始超参数候选数量！公式：
 
-![公式](img/Formula_B18753_06_026.png)
+```
+n_j = ceil((n_brackets)/(n_brackets - j + 1) * factor^(n_brackets - j))
+```
 
-1.  通过利用![公式](img/Formula_B18753_06_027.png)作为 min_resources 和![公式](img/Formula_B18753_06_028.png)作为 n_candidates，按照理解 SH 部分中所述的 SH 过程执行步骤 7 – 11，其中步骤 9\. I.被以下程序替换：
+1.  通过利用`r_j`作为 min_resources 和`n_j`作为 n_candidates，按照理解 SH 部分中所述的 SH 过程执行步骤 7 – 11，其中步骤 9\. I.被以下程序替换：
 
 1.  从均匀分布中生成一个介于零和一之间的随机数，rnd。
 
@@ -388,9 +406,13 @@ BOHB 的主要卖点是其能够实现强大的初始性能和最终性能。这
 
 1.  或者，利用多变量 TPE（参见*第四章**，探索贝叶斯优化）来采样初始超参数候选。请注意，我们总是在`candidates_dict`中使用的最大预算上利用多变量 TPE。对于好组和坏组，超参数集的数量基于以下公式定义：
 
-![公式](img/Formula_B18753_06_030.png)
+```
+n_good = max(n_min, floor((top_n_percent * num_curr_candidates) / 100))
+```
 
-![公式图](img/Formula_B18753_06_031.png)
+```
+n_bad = max(n_min, floor(((100 - top_n_percent) * num_curr_candidates) / 100))
+```
 
 1.  将采样的初始超参数候选以及目标函数得分（来自步骤 ii、iv 或 v）存储在`candidates_dict`![公式``]`中。
 

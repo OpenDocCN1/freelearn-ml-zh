@@ -131,7 +131,9 @@ x_clipped = quantile.fit_transform("House Price")
 
 MinMax 缩放器是最简单的缩放转换。当数据没有扭曲时，它效果最好。这种转换将数据缩放到 0 到 1 之间。可以使用以下公式进行计算：
 
-![公式 _05_001.jpg](img/Formula_05_001.jpg)
+```
+x_scaled = (x - x_min) / (x_max - x_min)
+```
 
 我们可以使用以下代码执行此缩放转换：
 
@@ -143,7 +145,9 @@ x_scaled = scaler.fit_transform("House Price")
 
 MaxAbs 缩放器与 MinMax 类似，但它不是将数据缩放到 0 到 1 之间，而是将数据缩放到-1 到 1 之间。可以使用以下公式进行计算：
 
-![公式 _05_002.jpg](img/Formula_05_002.jpg)
+```
+x_scaled = max(|x|) / x
+```
 
 我们可以使用以下代码执行此缩放转换：
 
@@ -155,7 +159,9 @@ x_scaled = scaler.fit_transform("House Price")
 
 标准缩放器是另一种流行的缩放转换。与 MinMax 缩放器不同，它不是使用最小值和最大值，而是将数据缩放到均值是 0，标准差是 1。这种缩放器基于数据呈正态分布的假设。可以使用以下公式进行计算：
 
-![公式 _05_003.jpg](img/Formula_05_003.jpg)
+```
+x_scaled = x - μ/σ
+```
 
 我们可以使用以下代码执行此缩放转换：
 
@@ -167,7 +173,7 @@ x_scaled = scaler.fit_transform("House Price")
 
 MinMax、MaxAbs 和 Standard 缩放器虽然功能强大，但可能会受到异常值和偏斜分布的影响。为了解决这个问题，我们可以使用 Robust 缩放器。而不是使用均值或最大值，这个缩放器通过从数据中移除中位数，然后使用四分位距缩放数据来工作。可以使用以下公式进行计算：
 
-![](img/Formula_05_004.jpg)![](img/Formula_05_005.jpg)
+`InterQuartile Range (IQR) = Q_3 - Q_1``x_scaled = (x - Q_1) / IQR`
 
 我们可以使用以下代码执行这种缩放转换：
 

@@ -34,7 +34,9 @@
 
 数据集中提供的特征变量已经通过将特征值围绕均值中心化并按标准差乘以样本数（N）进行缩放进行了归一化：
 
-![](img/Formula01.jpg)
+```
+normalized_x = (x - mean(x)) / (standard_{deviation(x)} * N)
+```
 
 更多关于原始数据集的信息可以在[`www4.stat.ncsu.edu/~boos/var.select/diabetes.html`](https://www4.stat.ncsu.edu/~boos/var.select/diabetes.html)找到。
 

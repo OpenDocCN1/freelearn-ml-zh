@@ -328,7 +328,7 @@ df_train, df_val = df_cv.iloc[train_index], df_cv.iloc[val_index]
 
 # 发现 LPO 交叉验证
 
-**LPO 交叉验证**是 LOO 交叉验证策略的一种变体，其中每个折叠的验证集包含*p*个样本，而不是仅包含 1 个样本。类似于 LOO，这种策略将确保我们得到所有可能的训练-验证对组合。更精确地说，如果有*n*个样本在我们的数据中，将会有![](img/Formula_B18753_01_001.png)个折叠。例如，如果我们想在有 50 个样本的数据上执行 Leave-5-Out 交叉验证，将会有![](img/Formula_B18753_01_002.png)或 142,506 个折叠。
+**LPO 交叉验证**是 LOO 交叉验证策略的一种变体，其中每个折叠的验证集包含*p*个样本，而不是仅包含 1 个样本。类似于 LOO，这种策略将确保我们得到所有可能的训练-验证对组合。更精确地说，如果有*n*个样本在我们的数据中，将会有`C^n_p`个折叠。例如，如果我们想在有 50 个样本的数据上执行 Leave-5-Out 交叉验证，将会有`C^30_5`或 142,506 个折叠。
 
 当样本数量较少且希望比 LOO 方法获得更高的模型估计性能置信度时，LPO 是合适的。当样本数量较多时，LPO 将导致折叠数量激增。
 
@@ -410,7 +410,7 @@ df_train, df_val = df_cv.iloc[train_index], df_cv.iloc[val_index]
 #perform training or hyperparameter tuning here
 ```
 
-提供 n_splits=5 将确保生成五个测试集。值得注意的是，默认情况下，训练集将为第 i 个折叠的大小为![](img/Formula_B18753_01_003.png)，而测试集将为![](img/Formula_B18753_01_004.png)的大小。
+提供 n_splits=5 将确保生成五个测试集。值得注意的是，默认情况下，训练集将为第 i 个折叠的大小为`i · n_samples / / (n_splits + 1) + n_samples % (n_splits + 1)`，而测试集将为`n_samples // (n_splits + 1)`的大小。
 
 然而，您可以通过`TimeSeriesSplit`函数的`max_train_size`和`test_size`参数来更改训练集和测试集的大小。此外，还有一个`gap`参数可以被利用来排除每个训练集末尾的 G 个样本，其中 G 是开发者需要指定的值。
 

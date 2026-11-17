@@ -247,7 +247,9 @@ Cox 比例风险模型的主要目的和特点是利用多个协变量风险因�
 
 风险比可以按照以下方式计算：
 
-![](img/B18945_14_1_formula.jpg)
+```
+(∑ Observed events in group A at time t / ∑ Expected events in group A at time t) / (∑ Observed events in group B at time t / ∑ Expected events in group B at time t)
+```
 
 风险比的问题在于，当我们无法在组间共享的协变量之间获得值的平衡时，我们就失去了对混杂变量的控制。当我们无法控制混杂变量时，我们无法可靠地获得推断。为了解释生存分析中可能存在的协变量值的不平衡，我们可以使用**Cox 比例风险模型**来引入系数，这些系数有助于解释不同水平的外生影响。该模型遵循以下形式：
 

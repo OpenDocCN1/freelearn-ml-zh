@@ -335,17 +335,23 @@ array([[86, 2],
 
 精确度的定义通常以其数学形式表示如下：
 
-![](img/Formula_07_001.jpg)
+```
+precision = TP / (TP + FP)
+```
 
 这里，TP 代表真正例（True Positive），FP 代表假正例（False Positive）。
 
 在外行星数据集中，我们有以下两种数学形式：
 
-![](img/Formula_07_002.png)
+```
+precision of exoplanet stars = 3 / (3 + 2) = 0.6
+```
 
 和
 
-![](img/Formula_07_003.png)
+```
+precision of nonexoplanet stars = 86/(86+9) = 0.91.
+```
 
 精确率给出了每个目标类的正确预测百分比。接下来，让我们回顾分类报告中揭示的其他关键评分指标。
 
@@ -363,17 +369,23 @@ array([[86, 2],
 
 数学形式如下所示：
 
-![](img/Formula_07_004.png)
+```
+recall = TP / (TP + FN)
+```
 
 这里 TP 代表真正例（True Positive），FN 代表假负例（False Negative）。
 
 在外行星数据集中，我们有以下内容：
 
-![](img/Formula_07_005.jpg)
+```
+recall of exoplanet stars = 3 / (3 + 9) = 0.25
+```
 
 和
 
-![](img/Formula_07_006.jpg)
+```
+recall of nonexoplanet stars = 86/(86+2) = 0.98
+```
 
 召回率告诉你找到了多少正样本。在外行星的例子中，只有 25%的外行星被找到了。
 
